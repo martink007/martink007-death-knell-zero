@@ -8,6 +8,21 @@ h1 {
         background-color: #d9b08c;
     
      }
+
+header {
+    color: #44318d
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.navtab {
+    padding: 0 10px;
+}
+div {
+    color: #44318d
+}
 .container {
 
     display: flex;
