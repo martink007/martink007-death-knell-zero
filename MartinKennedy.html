@@ -1,3 +1,54 @@
+<!DOCTYPE html>
 <html>
-    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="MartinKennedy.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <title>DeathKnellZero - HOME</title>
+
+    <body>
+        <header>
+          <div class="header-container">DeathKnellZero</div></div>
+            <nav class="topnav" style="transition: max-height 284ms ease 0s";>
+                  <a href="#root" data-scroll>HOME</a>
+                  <a href="#root" data-scroll>ABOUT</a>
+                  <a href="#root" data-scroll>TWITCH</a>
+                  <a href="#root" data-scroll>SOCIALS</a>
+                  <a href="#root" data-scroll>DEV PORTFOLIO</a>
+              </ul>
+            </nav>
+        </header>
+            <body>
+              <!-- Add a placeholder for the Twitch embed -->
+              <div id="twitch-embed"></div>
+          
+              <!-- Load the Twitch embed script -->
+              <script src="https://embed.twitch.tv/embed/v1.js"></script>
+          
+              <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+              <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                  width: 854,
+                  height: 480,
+                  channel: "DeathKnellZero",
+                });
+              </script>
+            </body>  
+
+        <h2>About</h2>
+        <p>
+          Hey guys welcome! My name is Marty aka DeathKnellZero. I'm from Wollongong NSW Australia. I've been gaming since I was knee high to a grasshopper. My first console was a PSX that my old man got me when I was 8.
+          20 years later and I still have a passion for gaming whether it's blockbuster AAA's or the smallest Indy titles if it's to do with gaming, it's to do with me! Drop a follow to keep up to date with what I'm playing.
+          Currently Playing:
+          Escape from Tarkov
+          Call of Duty: Modern Warfare
+        </p>
+       
+    </body>
+
+    <hr />
+    <footer>
+        Copyright Martin Kennedy 2020 ©
+    </footer>
 </html>
+
