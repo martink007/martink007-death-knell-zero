@@ -1,83 +1,68 @@
-title {
-    color: white;
-}
-h1 {
-        color:#fdfbfb;
-        display: flexbox;
-        position: relative;
-        background-color: #faf8f8;
-    
-     }
-
-header {
-    color: black;
-    font-size: 60px;
-}
-.header-container {
-  color: #2f2fa2;
-}
-h1 {
-  font-size: large;
-  font-weight: 200; 
-  font-family: inherit;
-  color: #000000;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-.navtab {
-    padding: 0 10px;
-    padding-bottom: 30px;
-    padding-right: 10px;
-}
-div {
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
 }
 .container {
-
-    display: flex;
-    background-color:#2f2fa2;
+  width: 100%;
+  height: 100%;
+  background-color: #2f2fa2;
 }
-.socialbuttons {
-  display: flex;
-  align-items: flex-start;
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
 }
-body {
-    padding-left: 100px;
-    padding-right: 100px;
-    font-family: 'Titillium Web', sans-serif;
-    background-color:black;
-    color: whitesmoke
-  }
-
-  p {
-    color: whitesmoke;
-  }
-
-  img {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-  navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap; // allow us to do the line break for collapsing content
-    align-items: center;
-    justify-content: space-between; // space out brand from logo
-    padding: $navbar-padding-y $navbar-padding-x;
-  }
-.about {
+.menu ul li {
+  list-style: none;
+  margin: 0 20px;
+  color: ghostwhite;
+  cursor: pointer;
+}
+.logo img {
+  width: 30px;
+  margin-top: -7px;
+  margin-right: 48px;
+}
+.active {
+  color: aqua;
+}
+.sbscr-btn {
+  top: 40px;
+  right: 80px;
+  position: absolute;
+  text-decoration: none;
+  color: azure;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#F64C72,#99738e), radial-gradient(circle at top left, #fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.sbscr-btn span{
+  display: block;
+  padding: 8px 22px;
+}
+.banner{
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
   color: #2f2fa2;
-  display: inline-flexbox;
 }
-
-.about-text {
+.site-text{
+  width: 50%;
+  float: left;
+}
+.site-text h1{
+  font-size: 43px;
+  width: 640px;
+  position: relative;
+  margin-left: 40px;
+}
+.site-text p{
+  width: 650px;
+  font-size: 15px;
+  margin: 30px 0 30px 40px;
   color: #2f2fa2;
-  display: inline-flexbox;
 }
