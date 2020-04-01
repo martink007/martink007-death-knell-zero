@@ -53,6 +53,13 @@
   position: absolute;
   color: #ffffff;
 }
+.dkzpic{
+  width: 50%;
+  float: right; 
+}
+.dkzpic img{
+  width: 100%;
+}
 .site-text{
   width: 50%;
   float: left;
@@ -71,4 +78,9 @@
 }
 .socialbuttons{
   display: inline-flex;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+.footer{
+  color: #ffffff;
 }
