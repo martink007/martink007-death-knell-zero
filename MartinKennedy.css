@@ -109,3 +109,7 @@
 .logi img {
   width: 100%;
 }
+.coderacademyimg {
+  width: 100%;
+  float: inline-start;
+}
