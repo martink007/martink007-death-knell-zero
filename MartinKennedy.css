@@ -4,12 +4,12 @@
   font-family: "Titillium Web", sans-serif;
 }
 .page{
-  background-color: #2f2fa2;
+  background-color: rgb(0, 0, 0);
 }
 .container {
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #565694;
 }
 .menu ul {
   display: inline-flex;
@@ -18,7 +18,7 @@
 .menu ul li {
   list-style: none;
   margin: 0 20px;
-  color: #2f2fa2;
+  color: white;
   cursor: pointer;
 }
 .logo img {
@@ -83,4 +83,24 @@
 }
 .footer{
   color: #ffffff;
+}
+.rog {
+  width: 50%;
+  float: right;
+}
+.rog img {
+  width: 100%;
+}
+.msi {
+  width: 50%;
+  float: right;
+}
+.msi img {
+  width: 100%;
+}
+
+@media screen and (max-width:959px) {
+  .container{
+    width: 100%;
+  }
 }
