@@ -9,10 +9,11 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: #565694;
+  background-color: black;
 }
 .menu ul {
-  display: inline-flex;
+  display: flex;
+  justify-content: flex-start;
   margin: 50px;
 }
 .menu ul li {
@@ -30,6 +31,8 @@
   color: aqua;
 }
 .sbscr-btn {
+  display: flex;
+  justify-content: flex-end;
   top: 40px;
   right: 80px;
   position: absolute;
@@ -77,7 +80,8 @@
   color: #ffffff;
 }
 .socialbuttons{
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 150px;
 }
@@ -97,10 +101,4 @@
 }
 .msi img {
   width: 100%;
-}
-
-@media screen and (max-width:959px) {
-  .container{
-    width: 100%;
-  }
 }
